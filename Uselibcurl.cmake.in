@@ -1,0 +1,13 @@
+#
+# This module is provided as libcurl_USE_FILE by libcurlConfig.cmake.  It can
+# be INCLUDED in a project to load the needed compiler and linker
+# settings to use libcurl.
+#
+
+IF(NOT libcurl_USE_FILE_INCLUDED)
+  SET(libcurl_USE_FILE_INCLUDED 1)
+  
+  # Add include directories needed to use libcurl.
+  INCLUDE_DIRECTORIES(${libcurl_INCLUDE_DIRS})
+  
+ENDIF()

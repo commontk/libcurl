@@ -1,0 +1,8 @@
+SET(libcurl_LIBRARY_DIRS "@libcurl_LIBRARY_DIRS_CONFIG@")
+
+SET(libcurl_LIBRARIES cmcurl)
+
+SET(libcurl_INCLUDE_DIRS "@libcurl_INCLUDE_DIRS_CONFIG@")
+
+# The location of the Uselibcurl.cmake file.
+set(libcurl_USE_FILE "@libcurl_USE_FILE_CONFIG@")
