@@ -1,6 +1,6 @@
 SET(libcurl_LIBRARY_DIRS "@libcurl_LIBRARY_DIRS_CONFIG@")
 
-SET(libcurl_LIBRARIES lib)
+SET(libcurl_LIBRARIES libcurl)
 
 SET(libcurl_INCLUDE_DIRS "@libcurl_INCLUDE_DIRS_CONFIG@")
 
