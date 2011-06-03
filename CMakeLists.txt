@@ -720,7 +720,7 @@ FOREACH(var
 ENDFOREACH()
 
 CONFIGURE_FILE(${LIBCURL_SOURCE_DIR}/config.h.in
-  ${LIBCURL_BINARY_DIR}/config.h)
+  ${LIBCURL_BINARY_DIR}/libcurlconfig.h)
 
 
 ADD_LIBRARY(libcurl ${LIBRARY_TYPE} ${libCurl_SRCS})

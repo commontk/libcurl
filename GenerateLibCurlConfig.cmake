@@ -8,6 +8,7 @@ SET(libcurl_LIBRARY_DIRS_CONFIG ${CMAKE_RUNTIME_OUTPUT_DIRECTORY})
 # Include directories
 SET(libcurl_INCLUDE_DIRS_CONFIG 
   ${LIBCURL_SOURCE_DIR}
+  ${LIBCURL_BINARY_DIR}
   )
 
 # Uselibcurl file

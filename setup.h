@@ -47,13 +47,9 @@
 #endif
 
 /*
- * Include configuration script results or hand-crafted
- * configuration file for platforms which lack config tool.
+ * Include configuration script results
  */
-
-#ifdef HAVE_CONFIG_H
-#include "config.h"
-#else
+#include "libcurlconfig.h"
 
 /*
 #ifdef _WIN32_WCE
