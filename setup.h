@@ -47,35 +47,9 @@
 #endif
 
 /*
- * Include configuration script results
+ * Include configuration script
  */
 #include "libcurlconfig.h"
-
-/*
-#ifdef _WIN32_WCE
-#include "config-win32ce.h"
-#else
-#ifdef WIN32
-#include "config-win32.h"
-#endif
-#endif
-*/
-
-#ifdef macintosh
-#include "config-mac.h"
-#endif
-
-#ifdef AMIGA
-#include "amigaos.h"
-#endif
-
-#ifdef TPF
-#include "config-tpf.h" /* hand-modified TPF config.h */
-/* change which select is used for libcurl */
-#define select(a,b,c,d,e) tpf_select_libcurl(a,b,c,d,e)
-#endif
-
-#endif /* HAVE_CONFIG_H */
 
 /*
  * Include header files for windows builds before redefining anything.
