@@ -3,7 +3,7 @@ CONFIGURE_FILE(
   ${LIBCURL_BINARY_DIR}/Uselibcurl.cmake COPYONLY)
 
 # Library directory
-SET(libcurl_LIBRARY_DIRS_CONFIG ${CMAKE_RUNTIME_OUTPUT_DIRECTORY})
+SET(libcurl_LIBRARY_DIRS_CONFIG ${LIBCURL_BINARY_DIR}/bin)
 
 # Include directories
 SET(libcurl_INCLUDE_DIRS_CONFIG 
